@@ -19,9 +19,9 @@ a = 2 b = 10 -> max = 10
 
 a = -9 b = -3 -> max = -3
 
-[Code](Z2\Program.cs)
+[Code](Z2/Program.cs)
 
-[diagram](Z2\diagram.png)
+[diagram](Z2/diagram.png)
 
 ## Задача 4
 
@@ -33,9 +33,9 @@ a = -9 b = -3 -> max = -3
 
 22 3 9 -> 22
 
-[Code](Z4\Program.cs)
+[Code](Z4/Program.cs)
 
-[diagram](Z4\diagram.png)
+[diagram](Z4/diagram.png)
 
 ## Задача 6
 
@@ -47,9 +47,9 @@ a = -9 b = -3 -> max = -3
 
 7 -> нет
 
-[Code](Z6\Program.cs)
+[Code](Z6/Program.cs)
 
-[diagram](Z6\diagram.png)
+[diagram](Z6/diagram.png)
 
 ## Задача 8
 
@@ -59,9 +59,9 @@ a = -9 b = -3 -> max = -3
 
 8 -> 2, 4, 6, 8
 
-[Code](Z8\Program.cs)
+[Code](Z8/Program.cs)
 
-[diagram](Z8\diagram.png)
+[diagram](Z8/diagram.png)
 
 # Домашнее задание 2
 
@@ -76,9 +76,9 @@ a = -9 b = -3 -> max = -3
 
 918 -> 1
 
-[Code](Z10\Program.cs)
+[Code](Z10/Program.cs)
 
-[diagram](Z10\diagram.png)
+[diagram](Z10/diagram.png)
 
 ## Задача 13
 
@@ -91,9 +91,9 @@ a = -9 b = -3 -> max = -3
 
 918 -> 1
 
-[Code](Z13\Program.cs)
+[Code](Z13/Program.cs)
 
-[diagram](Z13\diagram.png)
+[diagram](Z13/diagram.png)
 
 ## Задача 15
 
@@ -105,9 +105,9 @@ a = -9 b = -3 -> max = -3
 
 1 -> нет
 
-[Code](Z15\Program.cs)
+[Code](Z15/Program.cs)
 
-[diagram](Z15\diagram.png)
+[diagram](Z15/diagram.png)
 
 # Домашнее задание 3
 
@@ -121,7 +121,7 @@ a = -9 b = -3 -> max = -3
 
 23432 -> да
 
-[Code](Z19\Program.cs)
+[Code](Z19/Program.cs)
 
 ## Задача 23
 
