@@ -14,7 +14,7 @@ void RandomCube(int[,,] mass, int[] mas)
     {
         for (int j = 0; j < mass.GetLength(1); j++)
         {
-            for (int k = 0; k < mass.GetLength(0); k++)
+            for (int k = 0; k < mass.GetLength(2); k++)
             {
                 mass[i, j, k] = mas[l];
                 l++;
@@ -29,9 +29,9 @@ void PrintCube(int[,,] mass)
     {
         for (int j = 0; j < mass.GetLength(1); j++)
         {
-            for (int k = 0; k < mass.GetLength(0); k++)
+            for (int k = 0; k < mass.GetLength(2); k++)
             {
-                Console.Write("{0} ({1},{2},{3}) ", mass[i, j, k], i, j, k);
+                Console.Write($"{mass[i, j, k]} ({i},{j},{k}) ");
             }
         }
         Console.WriteLine();
