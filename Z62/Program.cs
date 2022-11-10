@@ -48,7 +48,7 @@ int[,] Spiral(int[,] matrix)
     if (matrix.GetLength(0) % 2 != 0)
     {
         ind++;
-        matrix[matrix.GetLength(0) - ((matrix.GetLength(0) / 2) + 1), matrix.GetLength(0) - ((matrix.GetLength(0) / 2) + 1)] = ind;
+        matrix[matrix.GetLength(0) - ((matrix.GetLength(0) / 2) + 1), matrix.GetLength(1) - ((matrix.GetLength(1) / 2) + 1)] = ind;
     }
     return matrix;
 }
