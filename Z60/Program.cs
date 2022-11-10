@@ -74,7 +74,7 @@ int l = Convert.ToInt32(Console.ReadLine());
 
 int[,,] Cube = new int[n, m, l];
 int vol=n*m*l;
-if(vol<100)
+if(vol<91)
 {
 RandomCube(Cube, Generator(vol));
 PrintCube(Cube);
