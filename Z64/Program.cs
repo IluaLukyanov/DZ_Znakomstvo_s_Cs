@@ -3,11 +3,11 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
-void ObrSchet (int b)
+int ObrSchet (int b)
 {
-    if (b == 0) return;
+    if (b == 0) return 1;
     Console.Write("{0,4}", b);
-    ObrSchet(b - 1);
+    return ObrSchet(b - 1);
 }
 
 Console.WriteLine("Введите натуральное число больше 1:");
